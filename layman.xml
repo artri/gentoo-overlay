@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<layman>
+   <overlay
+      type    = "git"
+      src     = "https://github.com/artri/gentoo-overlay.git"
+      contact = "artem.trybrat@gmail.com"
+      status  = "unofficial"
+      name    = "bisonik">
+      <link>https://github.com/artri/gentoo-overlay.git</link>
+      <description>Artem Trybrat's Personal Overlay</description>
+   </overlay>
+</layman>
