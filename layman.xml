@@ -1,12 +1,13 @@
-<?xml version="1.0" ?>
-<layman>
-   <overlay
-      type    = "git"
-      src     = "https://github.com/artri/gentoo-overlay.git"
-      contact = "artem.trybrat@gmail.com"
-      status  = "unofficial"
-      name    = "bisonik">
-      <link>https://github.com/artri/gentoo-overlay.git</link>
-      <description>Artem Trybrat's Personal Overlay</description>
-   </overlay>
-</layman>
+<repositories version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>bisonik</name>
+	<description>Artem Trybrat's Personal Overlay</description>
+	<homepage>https://github.com/artri/gentoo-overlay</homepage>
+	<owner>
+	    <name>Artem Trybrat</name>
+	    <email>artem.trybrat@gmail.com</email>
+	</owner>
+	<source type="git">https://github.com/artri/gentoo-overlay.git</source>
+	<feed>https://github.com/artri/gentoo-overlay/commits/master.atom</feed>
+    </repo>
+</repositories>
